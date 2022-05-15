@@ -1,0 +1,30 @@
+.collapsed section {
+     display: none;
+}
+span {
+     user-select: none;
+     margin: 0px;
+}
+div {
+     cursor: pointer;
+     color: black;
+     padding: 5px;
+     border-radius: 3px;
+     margin: 3px;
+     width: fit-content;
+}
+span > * {
+     margin-left: 15px;
+}
+div {
+     margin-left: 0px;
+}
+.hide {
+     display: none;
+}
+.show {
+     display: inline-block !important;
+}
+#arrow2 {
+     display: none;
+}
