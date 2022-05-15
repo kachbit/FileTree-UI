@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+	<div class="cont" style="border:2px solid black;width:500px;height:500px;margin:50px;word-break:break-all;"></div>
+
+	<script src="./src/ftree.js"></script>
+	<link rel="stylesheet" href="./src/ftree.css">
+    <script>
+        var jsonContent = {
+            Users: {
+                John: {
+                    Documents: {
+                        Notes: "Some notes",
+                        Pictures: {
+                            "Sunset.jpg": "Sunset in the mountains",
+                            "Lighthouse.jpg": "View from the lighthouse",
+                        },
+                    },
+                    Downloads: {
+                        js: "JavaScript",
+                        html: "HTML",
+                        css: "CSS",
+                    },
+                },
+        };
+ 
+		new fTree(jsonContent,document.querySelector('.cont'))
+    </script>
+
+	</body>
+</html>
