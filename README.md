@@ -6,12 +6,12 @@ Syntax:
 ```javascript
 new fTree(json, container)
 ```
-1. Include the CSS and JavaScript files (currently in the src directory)
+Include the CSS and JavaScript files (currently in the src directory)
 ```html
 <script src="./src/ftree.js"></script>
 <link rel="stylesheet" href="./src/ftree.css">
 ```
-2. In your JavaScript code, make sure to include a variable set as your desired JSON or JavaScript object then call the ```fTree``` function
+In your JavaScript code, make sure to include a variable set as your desired JSON or JavaScript object then call the ```fTree``` function
 ```javascript
 // only keys of the object, not the values, will be displayed in the tree
 var jsonContent = {
