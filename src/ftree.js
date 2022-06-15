@@ -22,13 +22,13 @@ class fTree {
         nodes.forEach((node) => {
             const arrow1 = document.createElement("span");
             arrow1.innerHTML = "&#9654;";
-            node.appendChild(arrow1);
+            node.prepend(arrow1);
 
             const arrow2 = document.createElement("span");
             arrow2.innerHTML = "&xdtri;";
             arrow2.id = "arrow2";
 
-            node.appendChild(arrow2);
+            node.prepend(arrow2);
             node.onclick = () => {
                 arrow1.classList.toggle("hide");
                 arrow2.classList.toggle("show");
