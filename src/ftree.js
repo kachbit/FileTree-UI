@@ -24,13 +24,13 @@ class fTree {
         nodes.forEach((node) => {
             const arrow1 = document.createElement("span");
             arrow1.classList.add('treeSpan')
-            arrow1.innerHTML = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 200 200" style="transform: rotate(-90deg);margin-right:6px;fill:white;background: transparent;" xml:space="preserve"><polygon points="199.404,63.993 171.12,35.709 99.702,107.127 28.284,35.709 0,63.993 99.702,163.695 "/></svg>`;
+            arrow1.innerHTML = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="11" viewBox="0 0 200 200" style="transform: rotate(-90deg);margin-right:6px;fill:white;background: transparent;" xml:space="preserve"><polygon points="199.404,63.993 171.12,35.709 99.702,107.127 28.284,35.709 0,63.993 99.702,163.695 "/></svg>`;
             arrow1.id = "arrow1";
             node.prepend(arrow1);
 
             const arrow2 = document.createElement("span");
             arrow2.classList.add('treeSpan')
-            arrow2.innerHTML = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="15" viewBox="0 0 200 200" style="margin-right:6px;fill:white;background: transparent;" xml:space="preserve"><polygon points="199.404,63.993 171.12,35.709 99.702,107.127 28.284,35.709 0,63.993 99.702,163.695 "/></svg>`;
+            arrow2.innerHTML = `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11" height="11" viewBox="0 0 200 200" style="margin-right:6px;fill:white;background: transparent;" xml:space="preserve"><polygon points="199.404,63.993 171.12,35.709 99.702,107.127 28.284,35.709 0,63.993 99.702,163.695 "/></svg>`;
             arrow2.id = "arrow2";
 
             node.prepend(arrow2);
