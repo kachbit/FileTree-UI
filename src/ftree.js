@@ -8,7 +8,7 @@ class fTree {
         const tree = this.generateTree(json);
         // append the tree to the body
         container.appendChild(tree);
-        container.querySelector('section').style.marginLeft = "36px" 
+        container.querySelector('section').style.marginLeft = "18px" 
         // make each div element collapsable
         const divs = container.querySelectorAll("div");
         divs.forEach((div) => {
