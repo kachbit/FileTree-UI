@@ -27,4 +27,8 @@ div {
 }
 #arrow2 {
      display: none;
+     margin-left:-36px
+}
+#arrow1 {
+     margin-left:-36px
 }
