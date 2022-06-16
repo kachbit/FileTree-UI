@@ -26,10 +26,14 @@
      margin-left:-36px;
      background: transparent
 }
+.treeSpan > * {
+     margin-left: 15px;
+}
+
 .file,.folder {
      padding-left:100%;
      padding-right:100%;
-     margin:0 -100%;
+     margin:0 calc(-100% + 5px);
      cursor: pointer;
      background: #222222;
      color:white;
@@ -41,7 +45,4 @@
 #root,.treeContainer {
     color:white;
     background:#222222;  
-}
-.treeSpan > * {
-     margin-left: 15px;
 }
