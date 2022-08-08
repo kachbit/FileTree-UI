@@ -1,6 +1,6 @@
 # file-tree-v2
 This is a complete rewrite of file-tree v1 project. This includes much cleaner and more concise. This file tree can be easily embedded into any project with JavaScript. The tree is generated from a JSON/JS object, which makes it much more dynamic and easier to use. 
-Here is the [demo](https://kachbit.github.io/file-tree-v2/demo.html)
+Here is the [demo](https://kachbit.github.io/FileTree-UI/demo.html)
 ## Embedding
 Syntax:
 ```javascript
