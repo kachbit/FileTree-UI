@@ -211,7 +211,7 @@ function nameGenerator(fileName) {
               'pnm',
             ],
           },
-          { name: 'javascript', fileExtensions: ['esx', 'mjs'] },
+          { name: 'javascript', fileExtensions: ['esx', 'mjs','js'] },
           { name: 'react', fileExtensions: ['jsx'] },
           { name: 'react_ts', fileExtensions: ['tsx'] },
           {
