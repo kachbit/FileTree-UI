@@ -2128,6 +2128,7 @@ function nameGenerator(fileName) {
                 }
             }
         }
-        return 'https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/'+ fileName + '.svg'
+       // return 'https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/'+ fileName + '.svg'
+         return 'https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/'+ 'file' + '.svg'
     }
 }
