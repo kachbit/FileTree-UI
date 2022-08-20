@@ -67,7 +67,7 @@ new fTree(jsonContent, document.querySelector('.container')) // second parameter
             new fTree(jsonContent, document.querySelector(".container"));
             // If you want file icons:
             document.querySelectorAll('.file').forEach(file => {
-                file.innerHTML = '<img src="' + nameGenerator(file.innerText) + `" style="height:15px" onerror="this.style.display='none'">  ` + file.innerText
+                file.innerHTML = '<img src="' + nameGenerator(file.innerText) + `" style="height:15px" onerror="this.src='https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/main/icons/file.svg'">  ` + file.innerText
             })
         </script>
     </body>
